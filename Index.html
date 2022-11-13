@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="css/index.css" type="text/css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@900&display=swap" rel="stylesheet">
+        <script>
+            function changePage(page){
+                switch(page){
+                    case 0:
+                        document.getElementById("home").style.display = "table";
+                        document.getElementById("services").style.display = "none";
+                        document.getElementById("projects").style.display = "none";
+                        document.getElementById("contact").style.display = "none";
+                        break;
+                    case 1:
+                        document.getElementById("home").style.display = "none";
+                        document.getElementById("services").style.display = "table";
+                        document.getElementById("projects").style.display = "none";
+                        document.getElementById("contact").style.display = "none";
+                        break;
+                    case 2:
+                        document.getElementById("home").style.display = "none";
+                        document.getElementById("services").style.display = "none";
+                        document.getElementById("projects").style.display = "table";
+                        document.getElementById("contact").style.display = "none";
+                        break;
+                    case 3:
+                        document.getElementById("home").style.display = "none";
+                        document.getElementById("services").style.display = "none";
+                        document.getElementById("projects").style.display = "none";
+                        document.getElementById("contact").style.display = "table";
+                        break;
+                    default:
+                        document.getElementById("home").style.display = "table";
+                        document.getElementById("services").style.display = "none";
+                        document.getElementById("projects").style.display = "none";
+                        document.getElementById("contact").style.display = "none";
+                        break;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="Nav">
+                <img src="https://static.wixstatic.com/media/2bb03d_97c8bf62ae8d4e3eafa9789ebe24d5eb~mv2.png/v1/fill/w_214,h_295,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Brancato%20Official%20LOGO.png">
+                <h2>BRANCATO'S</h2>
+                <h3>HEATING & COOLING</h3>
+                <a onclick="changePage(0)" class="home_btn">Home</a>
+                <a onclick="changePage(1)" class="srvcs_btn">Services</a>
+                <a onclick="changePage(2)" class="projects_btn">Projects</a>
+                <a onclick="changePage(3)" class="contact_btn">Contact Us</a>
+            </div>
+            <div class="Content">
+                <div class="home" id="home">
+                    <div class="home_container">
+                        <h2>About Us</h2>
+                        <p>
+                            Brancato's Heating & Cooling has been serving the Southern Maine community since 2007.
+                            As licensed professionals, we are always ready to tackle any commercial and/or residential projects; large or small.
+                            Our company was created based around three fundamentals: providing our customers with reliable, quality workmanship; completely energy-efficient
+                            systems, and communicating with transparency.
+                            <br><br>
+                            We pride ourselves on providing our customers with a dependable team, ready to serve:
+                            <br>
+                            24 hours a day, 7 days a week, 365 days a year.
+                        </p>
+                        <br>
+                        <h2>Our Team</h2>
+                        <p>Each and every one of our employees represent the spirit of our company: driven, detail oriented and commitment to provide our customers with the best service possible. We have diverse experience sets
+
+                            amassing to 30+ years in the mechanical/heating industry.
+                        </p>
+                    </div>
+                </div>
+                <div class="services" id="services">
+                    <div class="services_container">
+                        <h2>Services</h2>
+                        <p>
+                            As a company we provide services in commercial and/or residential capacities; large or small. Below is a list of
+                            our services offered within the mechanical/heating industry:
+                            <br>
+                            <ul>
+                                <li>General System Repair</li>
+                                <li>System Inspections</li>
+                                <li>System Cleanings</li>
+                                <li>System Installations For New Construction & Renovations</li>
+                                <li>Gas Line Installations</li>
+                                <li>Trench Excavation (Gas Lines) & Underground Propane Tank Installations</li>
+                            </ul>
+                            <br><br>
+                            Indoor or outdoor, commercial or residential, Brancato's Heating will find the right solution for our customers. We as a company are not deterred by a challenge!
+                        </p>
+                        <br><br>
+                        <h2>The Finer Details</h2>
+                        <p>We find it extremely helpful to communicate transparently with our customers so they know what to expect from us.  Below is a list of our preferred manufacturers (by system):​</p>
+                        <br>
+                        <div class="manufacturers">
+                            <div class="manufacturer0">
+                                <p class="heading">Boilers:</p>
+                                <p class="sub-heading">Natural Gas / Propane:</p>
+                                <ul>
+                                    <li>Bosch</li>
+                                    <li>Viessman</li>
+                                </ul>
+                                <p class="sub-heading">Oil:</p>
+                                <ul>
+                                    <li>Viessman</li>
+                                    <li>Buderus</li>
+                                </ul>
+                            </div>
+                            <div class="manufacturer1">
+                                <p class="heading">Furnaces:</p>
+                                <p class="sub-heading">Natural Gas / Propane:</p>
+                                <ul>
+                                    <li>American Standard</li>
+                                    <li>Thermo Pride</li>
+                                </ul>
+                                <p class="sub-heading">Oil:</p>
+                                <ul>
+                                    <li>Thermo Pride</li>
+                                </ul>
+                            </div>
+                            <div class="manufacturer2">
+                                <p class="heading">Heat Pumps:</p>
+                                <p class="sub-heading">Electric:</p>
+                                <ul>
+                                    <li>Fujitsu</li>
+                                </ul>
+                            </div>
+                            <div class="manufacturer3">
+                                <p class="heading">Central Air Conditioning:</p>
+                                <p class="sub-heading">Electric:</p>
+                                <ul>
+                                    <li>American Standard</li>
+                                    <li>Thermo Pride</li>
+                                </ul>
+                            </div>
+                            <div class="manufacturer4">
+                                <p class="heading">On-Demand Hot Water:</p>
+                                <p class="sub-heading">Natural Gas / Propane:</p>
+                                <ul>
+                                    <li>Bosch</li>
+                                    <li>Rinnai</li>
+                                </ul>
+                            </div>
+                            <div class="manufacturer5">
+                                <p class="heading">Direct-Vent Space Heater:</p>
+                                <p class="sub-heading">Natural Gas / Propane:</p>
+                                <ul>
+                                    <li>Rinnai</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="manufacturers-images">
+                            <a target="_blank" href="https://www.bosch-thermotechnology.us/us/en/commercial/home/"><img src="https://static.wixstatic.com/media/2bb03d_772bebc7b5a64d689f541e76a5e4a3b2~mv2.png/v1/fill/w_393,h_400,al_c,lg_1,q_85,enc_auto/2bb03d_772bebc7b5a64d689f541e76a5e4a3b2~mv2.png"></a>
+                            <a target="_blank" href="https://www.viessmann-us.com/"><img src="https://static.wixstatic.com/media/2bb03d_3e57d50047de4574bbdaa26e314e002c~mv2.png/v1/fill/w_429,h_368,al_c,lg_1,q_85,enc_auto/2bb03d_3e57d50047de4574bbdaa26e314e002c~mv2.png"></a>
+                            <a target="_blank" href="https://www.buderus.com/en/"><img src="https://static.wixstatic.com/media/2bb03d_f69c9ac531a94f379e8287822d44fad0~mv2.png/v1/fill/w_461,h_381,al_c,lg_1,q_85,enc_auto/2bb03d_f69c9ac531a94f379e8287822d44fad0~mv2.png"></a>
+                            <a target="_blank" href="https://www.americanstandardair.com/products.html"><img src="https://static.wixstatic.com/media/2bb03d_12dc106281aa4f28bad9431c5a456325~mv2.png/v1/fill/w_515,h_438,al_c,lg_1,q_85,enc_auto/2bb03d_12dc106281aa4f28bad9431c5a456325~mv2.png"></a>
+                            <a target="_blank" href="http://www.thermopride.com/"><img src="https://static.wixstatic.com/media/2bb03d_4d830a96db2b4a8fad2956f6897dc9b6~mv2.jpeg/v1/fill/w_339,h_280,al_c,lg_1,q_80,enc_auto/2bb03d_4d830a96db2b4a8fad2956f6897dc9b6~mv2.jpeg"></a>
+                            <a target="_blank" href="http://www.fujitsugeneral.com/"><img src="https://static.wixstatic.com/media/2bb03d_32d094a418ed439aa5921ff30cc76204~mv2.png/v1/fill/w_480,h_386,al_c,lg_1,q_85,enc_auto/2bb03d_32d094a418ed439aa5921ff30cc76204~mv2.png"></a>
+                            <a target="_blank" href="https://www.rinnai.us/"><img src="https://static.wixstatic.com/media/2bb03d_802fe23cf7614416857af2881e040bc0~mv2.png/v1/fill/w_386,h_403,al_c,lg_1,q_85,enc_auto/2bb03d_802fe23cf7614416857af2881e040bc0~mv2.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects" id="projects">
+                    <div class="projects_container">
+                        <h2>Our Projects</h2>
+                        <p>Here at Brancato's Heating and Cooling, we take pride in every job we do. Below are pictures of our quality work, along with a small description of the job at hand:</p>
+                        <br>
+                        <div class="project">
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="slides1 fade">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="https://static.wixstatic.com/media/2bb03d_b7098616617b46ec9ea5100118114b99~mv2.jpg/v1/fill/w_696,h_696,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2bb03d_b7098616617b46ec9ea5100118114b99~mv2.jpg">
+                                </div>
+                            
+                                <div class="slides1 fade">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="https://static.wixstatic.com/media/2bb03d_962915788be34bd4bc77a6f44f2bb341~mv2_d_1536_2049_s_2.jpg/v1/fill/w_536,h_715,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2bb03d_962915788be34bd4bc77a6f44f2bb341~mv2_d_1536_2049_s_2.jpg">
+                                <div class="text">Before</div>
+                                </div>
+                            
+                                <div class="slides1 fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="https://static.wixstatic.com/media/2bb03d_5ea31ed4a6634450b45968ed88ae22ed~mv2_d_2049_1537_s_2.jpg/v1/fill/w_953,h_715,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2bb03d_5ea31ed4a6634450b45968ed88ae22ed~mv2_d_2049_1537_s_2.jpg">
+                                <div class="text">After</div>
+                                </div>
+                            
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                            </div>
+                            <h2>The Orchard House & Cafe - Freeport, ME</h2>
+                            <p>Customer had an existing oil forced hot air furnace and an electric hot water tank servicing 2 bathrooms, kitchen and laundry facilities.  The customer was converting his home into an Inn & Restaurant servicing 6 full bathrooms, 1 ADA bathroom and heating a 5,000 sqft. space.  
+                                <br>
+                                <br>
+                                We suggested removing the existing oil & electric systems and replacing them with a Bosch high-efficiency wall mount boiler with an 80-gallon indirect hot water tank to supply hot water for the needs of the Inn.  At the same time, we added a hydronic air handler for distributing the temperature controled air throughout the space as well as including a coil and American Standard condenser for central air conditioning. Due to the requests of the customer we wrapped all the existing and new ductwork with insulation.</p>
+                        </div>
+                        <br>
+                        <div class="project">
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="slides2 fade">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="https://static.wixstatic.com/media/2bb03d_9bd3cdbb979d4fc7bee5834eaa896a31~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_536,h_715,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2bb03d_9bd3cdbb979d4fc7bee5834eaa896a31~mv2_d_3024_4032_s_4_2.jpg">
+                                <div class="text">Before</div>
+                                </div>
+                            
+                                <div class="slides2 fade">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="https://static.wixstatic.com/media/2bb03d_7cfa5b1bbf3c43568e40145cbe439e85~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_536,h_715,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2bb03d_7cfa5b1bbf3c43568e40145cbe439e85~mv2_d_3024_4032_s_4_2.jpg">
+                                <div class="text">Before</div>
+                                </div>
+                            
+                                <div class="slides2 fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="https://static.wixstatic.com/media/2bb03d_c62877a05e244f759190ff7697745b07~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_536,h_715,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2bb03d_c62877a05e244f759190ff7697745b07~mv2_d_3024_4032_s_4_2.jpg">
+                                <div class="text">After</div>
+                                </div>
+                            
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                            </div>
+                            <h2>Roy & Claire H. - Brunswick, ME</h2>
+                            <p>Customer had an existing oil tank-less hot water heating system which maintains a high temperature and operates all year long whether hot water is needed or not. The customer was wanting  a more energy efficient system overall.
+                                ​<br><br>
+                                We suggested replacing their existing cast-iron Burnham boiler with a high-efficiency Bosch floor standing condensing propane boiler with a 40-gallon indirect hot water tank.  We suggested the Bosch system due to their reliability, energy efficiency manufacturers' warranty.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact" id="contact">
+                    <div class="contact_container">
+                        <h2>Contact Us</h2>
+                        <div class="sidebyside">
+                            <div class="side1">
+                                <p>We welcome you to contact us at anytime.  To schedule a project with us, please contact the Coordinator at (207) 751-7003.
+                                    <br>
+                                    <br>
+                                    24 hours a day - 7 days a week - 365 days a year
+                                    <br>
+                                    <br>
+                                    Brancato's Heating<br>​
+                                    214 Casco Road<br>
+                                    Brunswick, Maine 04011<br>
+                                    <a href="tel:2077517003">(207) 751-7003</a><br>
+                                    <a href="mailto:info@brancatosheatingandcooling.com">info@brancatosheatingandcooling.com</a><br>
+                                    <a href="www.brancatosheatingandcooling.com">www.brancatosheatingandcooling.com</a>
+                                </p>
+                            </div>
+                            <div class="side2">
+                                <p>We accept the following payment options:
+                                    <br><br>
+                                    Cash - Check - Mastercard - Visa - Amex
+                                    <br><br>
+                                    We offer financing with:
+                                    <br>
+                                    <img src="https://static.wixstatic.com/media/2bb03d_e3a8493126c3437ea58eb46509f2f18a~mv2.png/v1/fill/w_205,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/navilend_logo.png" alt="Navilend - Powered by EnerBank USA">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h3>Are you in need of a heating & cooling specialist? You can get a free estimate!</h3>
+                <h3 class="call">Call Now: <a href="tel:2077517003">(207) 751-7003</a></h3>
+                <p>24 hours a day - 7 days a week - 365 days a year.</p>
+                <p class="copy-line">&copy; 2022 Brancato's Heating & Cooling</p>
+            </div>
+        </div>
+        <script>
+            let slideIndex = [1,1];
+            let slideId = ["slides1", "slides2"]
+            showSlides(1, 0);
+            showSlides(1, 1);
+
+            function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+            }
+
+            function showSlides(n, no) {
+            let i;
+            let x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) {slideIndex[no] = 1}    
+            if (n < 1) {slideIndex[no] = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex[no]-1].style.display = "block";  
+            }
+        </script>
+    </body>
+</html>
+<!--
+    TODO:
+    Make all company mentions clickable links (including images)
+    Save all images locally
+-->
